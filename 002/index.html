@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Primeiro exercicio</title>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Estou muito feliz de estar aprendendo HTML e CSS. Horaaay</p>
+    <p>Este é um momento único, estou criando um site.</p>
+    
+    <hr>
+    <h2>Parágrafos e quebras de linhas</h2>
+    <p>Indepentende de como eu escrever, o que vai delimitar o parágrafo, será a tag &lt;p&gt; e &lt;/p&gt;</p>
+    <p>Sendo assim, se eu quiser quebrar meu texto em algum lugar, eu posso usar a tag &lt;br&gt;</p>
+    <p>Por exemplo, vou quebrar o texto extamente aqui <br>voce percebeu? Funcionou!</p>
+    
+    <hr>
+    <h2>Caracteres especiais e emojis</h2>
+    <p>Adicionar caracteres especiais, alguns exemplos a seguir:<br>
+        &reg;<!--marca registrada-->
+        &copy; <!--copy right-->
+        &trade;<!--trade mark-->
+        &Delta;
+        &uparrow; <!--seta para cima-->
+        <br>
+        Também tem símbolos para moedas:<br>
+        &euro;
+        &dollar;
+        &pound;
+        &real;
+    </p>
+    <p>Para adicionar emojis, primeiro podemos ir no site <a href="https://emojipedia.org/" target="_blank">Emojipedia</a> e escolher qual emoji queremos inserir.</p>
+        <p>Após isso, escrevemos &#x no nosso HTML + o código que aparece no site + ; .
+            <br> Veja alguns exemplos:<br>
+            &#x1F596;  &#x1F913;</p>  
+    
+    
+    <hr> 
+    <h2>Imagens e Favicon</h2>
+    <p>Para utilizarmos imagens em nossos sites, temos que ter muito cuidado em utilizar imagens com permissao de uso, entao, sempre verificar os direitos autorais.</p>
+    <p>Dois sites recomendados para busca de imagens sao:
+        <ul> <li><a href="https://unsplash.com/" target="_blank"> O Unsplash</a></li> 
+             <li> <a href="https://www.pexels.com/pt-br/" target="_blank"> O Pexels</a> </li> </ul> </p>
+    <p>Outros sites: FreePik, RawPixel, Pixabay, LibreShot, WikimediaCommons;<br>Também podemos usar a aba "ferramentas" no Google Image e selecionar imagem de domínio público;</p>
+    
+    <h3>Formatos de Imagens</h3>
+    <p>Os formatos de imagens mais usados para sites sao: PNG e JPEG.</p>
+    <p>A principal característica do PNG - e que o diferencia do JPEG - é a capacidade de configurar a opacidade de cada pixel (deixá-lo transparente ou com transparência limitada)</p>
+    <p>Já a vantagem do JPEG é gerar arquivos muito pequenos e que ocupam pouco espaço em disco. Porém, cuidado para nao compactar demais e perder totalmente a qualidade da imagem</p>
+    <p>De forma resumida, na hora de escolher o formato de imagem para o seu site, opte sempre pelo formato JPEG com uma compactação entre 30% e 50%. O formato PNG só deverá ser usado quando precisarmos de transparência na foto.</p>
+    
+    <h3>Tamanho das imagens</h3>
+    <p>As imagens devem possuir o tamanho certo para cada situacao que queremos executar. Nao podemos simplesmente escolher uma imagem gigante porque a resolucao dela será melhor, mesmo porque o tamanho dela será muito grande, ocupando um espaco maior na memória. <br>Uma ideia de largura máxima para uma imagem seria 1500px de largura, mas normalmente é usada a largura de 200 a 500px. Já a resolucao pode ficar entre 50 a 80 pixels/in.</p>
+    <p>A melhor forma de trabalhar com imagens é redimensionar ela antes de colocar no arquivo HTML, com softwares como o PthotoShop ou o Gimp, pois assim, também é alterado o tamanho do arquivo, o deixando mais leve.</p>
+    <p> &#x26A0 Lembrete:  Os mecanismos de busca como o Google PENALIZAM sites lentos e pesados, retirando-os da primeira página de buscas.</p>
+    
+    <h3>Favicons</h3>
+    <p>Favicons sao ícones de favorito, que aparecem ao lado do site que pesquisamos no nosso navegador/browser. Fica no mesmo local do &lt;title&gt; que colocamos na head.</p>
+    <p>Para usar um favicon no seu site, você precisa ter o arquivo do ícone, que geralmente está no formato ICO.</p>
+    <p>Voce pode baixar ícones prontos,ex.: no site <a href="https://iconarchive.com/" target="_blank">IconArchive</a>, ou criar seu próprio favicon no site <a href="https://www.favicon.cc/" target="_blank">favicon.cc.</a> ou utilizar uma imagem que voce já tem e transformá-la em .ico com o site  <a href="https://favicon.io/" target="_blank">favicon.io</a> .</p> 
+    <!--
+    Para inserir o favicon, temos que digitar na <head> o seguinte ex:
+    <link real="shortcut icon" href="favicon.ico" type="image/x-icon">
+    -->
+
+    <hr>
+    <h2>Hierarquia de Títulos</h2>
+    <p>Os títulos(headings) possuem 6 níveis de hierarquia, de h1 a h6, que servem para organizar nosso conteúdo.</p>
+    <p>Lembre-se que os níveis de hierarquia nao sao representam o tamanho do texto - HTML é uma linguagem de marcarrao, correto? Entao, para mudar tamanho, cores... usaremos as CSS, que sao de estilo.</p>
+    <p>Dica: Quando voce quer apenas visualizar um resultado final, sem tem um conteúdo definido, nao precisa em digitar o texto dos parágrafos de cada seção e no lugar deles podemos usar os famosos Lorem Ipsum genéricos. Apenas digitando "lorem".</p>
+    <p>Desmistificando a lenda: Segundo a SEO - Search Engine Optimization: É possível adicionar mais de um título de nível 1, só devemos nos dedicar a descrevê-lo muito bem para facilitar a indexação por mecanismos de busca. </p>
+
+    <hr>
+    <h2>Formatacao de Textos</h2>
+    <p>A maior mudança da HTML4 para a HTML5 é o acréscimo da semântica aos elementos.</p>
+    <p>Na HTML4, tínhamos tags como &lt;b&gt; que colocava um texto em negrito, &lt;u&gt; que colocava o termo sublinhado e &lt;blink&gt; que fazia o texto piscar. Essas  eram tags que representavam <strong>apenas uma forma.</strong></p>
+    <p>Já a HTML5 chegou com o conceito de valorizar a <strong> semântica</strong>, logo suas tags tentam levar um significado embutido muito forte.O intuito é deixar a <strong>apresentação gráfica por conta das CSS</strong> .</p>
+
+    <h3><strong>Negrito</strong> e <em>Itálico</em></h3>
+    <p>Para usar o negrito e o itálico recomendamos que você passe a usar as tags &lt;strong&gt; e &lt;em&gt; para realizar essas mesmas formatações visuais, só que agora com sentido.</p>
+    <p> A tag &lt;strong&gt; significa que o termo delimitado possui força dentro da frase, pois queremos dar <strong>destaque</strong>. Logo, ele aparecerá em negrito. <br> Já a tag &lt;em&gt; significa que queremos dar <strong>ênfase</strong> (do Inglês emphasis) ao termo. Logo, ele aparecerá em itálico. Note que, ao usar &lt;strong&gt; e &lt;em&gt; no lugar de &lt;b&gt; e &lt;i&gt;, damos mais significado aos nossos termos e conteúdos.</p>
+    <p>Como eles vão ser representados visualmente (forma), vai depender das nossas folhas de estilo CSS.</p>
+    
+    <h3>Texto marcado</h3>
+    <p>Podemos criar também <mark style="background-color: lime;">textos marcados</mark> usando a tag &lt;mark&gt;.</p>
+
+    <h3>Texto deletado</h3>
+    <p>Podemos também <del>marcar com texto como excluído</del> para mostrar que ele foi escrito mas nao tem mais relevancia, usando a tag &lt;del&gt;</p>
+
+    <h3>Texto inserido</h3>
+    <p>Há a possibilidade de <ins>marcar um texto como inserido</ins>, no caso de um conteúdo que foi adicionado posteriormente na página, usando &lt;ins&gt;.</p>
+
+    <h3>Texto sobrescrito</h3>
+    <p>Quando queremos um caractere específica para ficar elevada, como em casos de exponenciais matemáticos, ex.: x<sup>2</sup>, podemos usar a tag &lt;sup&gt;.</p>
+
+    <h3>Texto subscrito</h3>
+    <p>Já em casos que queremos que algum caractere fica em um desnível, podemos fazer uso da tag &lt;sub&gt;, como por exemplo: H<sub>2</sub>O.</p>
+
+    <h3>Trechos de código-fonte</h3>
+    <p>Para representarmos um código na nossa página, usamos a tag &lt;code&gt;. A principal vantagem no uso dessa tag é a o valor semântico que ela representa, indicando ao navegador que se trata de um código de computador. <br> Porém, existe também um efeito visual, pois as letras ficam no modo mono-espaçadas (monospace), o que facilita bastante a leitura do código.</p>
+    <p>E, como já sabemos, o ENTER nao tem validade quando escrevemos em HTML, por isso usamos tags como &lt;br&gt;. <br>No caso de escrever um código, isso nao seria diferente. Por isso, vamos usar uma outra tag HTML chamada &lt;pre&gt;, que mantém o texto pré-formatado, exatamente da mesma maneira na qual ele foi digitado, incluindo quebras de linhas, espaços e tabulações.</p>
+    <p>Veja o ex. de um código em C#:</p>
+    <pre><code>
+    int idade = 24;
+    string nome = "Isabele";
+    console.WriteLine($"Meu nome é {nome} e tenho {idade} anos.");
+    </code></pre>
+
+    <h3>“Citações” </h3>
+    <p>Normalmente, uma citação aparece entre aspas ou com as margens deslocadas em relação ao texto.</p>
+    
+    <h4>Citações simples</h4>
+    <p>Para criar uma citação em HTML, podemos usar a tag &lt;q&gt; (do Inglês quote, que significa citar). O texto que estiver entre &lt;q&gt; e &lt;/q&gt; já vai receber automaticamente as aspas, mas não terá nenhum deslocamento. Essa técnica é mais usada quando queremos uma citação no meio de um parágrafo.</p>
+    <p>Exemplo: <br>Como diria o pai do Ricardo, amigo do prof. Guanabara: <q>O computador é um burro muito rápido.</q> </p>
+
+    <h4>Citações completas</h4>
+    <p>Também podemos criar citações mais longas (em bloco) e que tenham um parágrafo só para si. Nesse caso, colocaremos tudo dentro de &lt;blockquote&gt; e &lt;/blockquote&gt; e o texto ganha um recuo automaticamente.</p>
+    <p>Podemos também colocar um link para o texto original, usando o parâmetro CITE dentro da tag.</p>
+    <p>Exemplo:</p>
+    <blockquote cite="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fraw.githubusercontent.com%2Fgustavoguanabara%2Fhtml-css%2Fmaster%2Faulas-pdf%2F08%2520-%2520Formata%25C3%25A7%25C3%25A3o%2520de%2520Textos.pdf&clen=1901957&chunk=true">
+        Se você já escreveu um texto sequer na sua vida, com certeza já teve que fazer citações. Uma citação é um trecho de texto, escrito ou dito por outra pessoa, que vai ilustrar perfeitamente algo que você quer explicar. 
+    </blockquote>
+
+    <h3>Abreviações</h3>
+    <p>Abreviações sao bem importantes de serem usadas, pois serve para entendermos o que cada letra de uma abreviaçao significa. <br>Por exemplo: <q>Estou gostando muito de aprender <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. É muuuito legal!</q></p>
+    <p>Para fazermos isso, usamos a tag &lt;abbr&gt;. Ela já bem com o parametro TITLE para preenchermos com o significado da abreviacao.</p>
+
+    <h3>Texto invertido</h3>
+    <bdo dir="rtl">Não entendeu nada desse texto? Pois tente ler da última letra até a primeira.</bdo>
+    <p>Pois, é... fazemos isso usando a &lt;bdo&gt;. BDO significa bi-directional override. Ao usar essa tag, já aparece o parâmetro DIR para indicar uma das duas direções possíveis: <br><pre><code>
+    rtl = da direita para a esquerda (right-to-left) 
+    ltr = da esquerda para a direita (left-to-right)</code></pre></p>
+
+    <hr>
+    <h2>Listas em HTML</h2>
+    <h3>Listas Ordenadas</h3>
+    <p>Sao listas em que a ordem dos itens importa;</p>
+    <p>Para isso usamos a tag &lt;ol&gt;</p>
+    <ol type="a">
+        <li>acordar</li>
+        <li>escovar os dentes</li>
+        <li>tomar banho</li>
+    </ol>
+    <p>E cada item colocamos entre a tag &lt;li&gt;.<br>Como no exemplo acima</p> 
+    <h3>Listas Nao Ordenadas</h3>
+    <p>Sao listas em que a ordem dos itens nao importa;</p>
+    <p>Para isso usamos a tag &lt;ul&gt;</p>
+    <ol type="circle">
+        <li>comprar pao</li>
+        <li>comprar ovo</li>
+        <li>marcar consulta no endocrino</li>
+        <li>iniciar curso de JS</li>
+    </ol>
+    <p>Tanto a lista ordenada como a nao ordenada possuem "types", sendo eles possíveis de modificar.</p>
+    <p>ol types="A","a","I","i","1"</p>
+    <p>ul types="square","disc","circle"</p>
+
+    <hr>
+    <h2>Links e ancoras</h2>
+    <h3>Links externos</h3>
+    <p>Para direcionarmos essa página para o google, por exemplo, usamos a tag &lt;a&gt;. <br>Veja:</p>
+    <p><a href="https://google.com.br" target="_blank" rel="external">Clique aqui para acessar o google.</a></p>
+    <h3>Links internos</h3>
+    <p>Já para linkar páginas do mesmo website, recomenda-se que seja utilizado o target= _self.</p>
+    <p>Para isso, no "href" colocamos o arquivo que queremos direcionar, que esteja na mesma pasta que o arquivo index.html. <br>Veja no exemplo:</p>
+    <p><a href="pagina2.html" target="_self" rel="next">Clique aqui para ir na pagina 2 desse website.</a></p>
+    <h3>Link para download</h3>
+    <p>Nesse caso, mudamos apenas que, dentro da tag &lt;a&gt;, usaremos <em>href</em> para direcionar ao documento do download, <em>download</em> para discriminar o nome do arquivo que será baixado e <em>type</em> para <strong>application/pdf</strong> ou <strong>application/zip</strong>, dependendo do caso.</p>
+
+</body>
+</html>
